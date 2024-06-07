@@ -9,7 +9,7 @@
         <input type="number" v-model="enteredAge">
     </div>
     <div>
-        <button>Add User</button>
+        <button @click="submitUser">Add User</button>
     </div>
 </template>
 
